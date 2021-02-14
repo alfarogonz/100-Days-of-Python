@@ -1,6 +1,7 @@
 from question_model import Question
 from data import question_data
 from quiz_brain import QuizBrain
+from tkinter import Tk
 
 questions = [ Question(q['text'], q['answer']) for q in question_data ]
     
