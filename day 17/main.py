@@ -4,7 +4,6 @@ from quiz_brain import QuizBrain
 from tkinter import Tk
 
 questions = [ Question(q['text'], q['answer']) for q in question_data ]
-    
 
 quiz = QuizBrain(questions)
 while quiz.still_has_questions():
